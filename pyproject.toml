@@ -1,5 +1,5 @@
 [project]
-name = "pr-fixer-sandbox"
+name = "culture-rules-tester"
 version = "0.10.1"
 description = "Scratch repo for live tests of the culture-rules PR fixer (seeded Sonar issues, failing tests, fork and draft PRs). Not a real project."
 readme = "README.md"
