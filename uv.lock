@@ -155,8 +155,8 @@ wheels = [
 ]
 
 [[package]]
-name = "pr-fixer-sandbox"
-version = "0.10.0"
+name = "culture-rules-tester"
+version = "0.10.1"
 source = { editable = "." }
 
 [package.dev-dependencies]
