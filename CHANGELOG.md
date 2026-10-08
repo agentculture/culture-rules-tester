@@ -9,7 +9,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
-- `textx.word_count` (d20 review-step proof fixture; seeded with a bug).
+- `textx.word_count` (d20 review-step proof fixture).
 
 ## [0.10.0] - 2026-10-06
 
