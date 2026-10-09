@@ -5,12 +5,18 @@ All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). This project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.10.3] - 2026-10-11
+## [0.10.4] - 2026-10-12
 
 ### Added
 
 - `strx.truncate` (seeded bug for the d26 status-comment proof)
 - `strx.pad` (second d26 proof, seeded bug)
+
+## [0.10.3] - 2026-10-11
+
+### Added
+
+- `listx.chunk` (seeded bug for the d21 chain proof)
 
 ## [0.10.2] - 2026-10-11
 
