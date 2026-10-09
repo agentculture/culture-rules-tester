@@ -5,11 +5,18 @@ All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). This project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.10.2] - 2026-10-09
+## [0.10.3] - 2026-10-11
 
 ### Added
 
 - `strx.truncate` (seeded bug for the d26 status-comment proof)
+- `strx.pad` (second d26 proof, seeded bug)
+
+## [0.10.2] - 2026-10-11
+
+### Added
+
+- `mathx.mean`: the arithmetic mean of a sequence (true division), `None` for an empty one.
 
 ## [0.10.1] - 2026-10-09
 
