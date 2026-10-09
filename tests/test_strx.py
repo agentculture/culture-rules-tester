@@ -23,3 +23,16 @@ def test_the_result_never_exceeds_the_width():
 def test_a_width_too_small_for_the_ellipsis_is_refused():
     with pytest.raises(ValueError):
         truncate("hello", 2)
+
+
+def test_pad_reaches_the_width():
+    from pr_fixer_sandbox.strx import pad
+
+    assert pad("ab", 5) == "ab   "
+    assert pad("ab", 5, ".") == "ab..."
+
+
+def test_pad_leaves_long_text_alone():
+    from pr_fixer_sandbox.strx import pad
+
+    assert pad("abcdef", 3) == "abcdef"
