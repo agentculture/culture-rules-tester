@@ -16,4 +16,4 @@ def pad(text: str, width: int, fill: str = " ") -> str:
     """``text`` padded on the right with ``fill`` to at least ``width`` characters."""
     if len(fill) != 1:
         raise ValueError("fill must be one character")
-    return text + fill * (width - len(text) - 1)
+    return text + fill * (width - len(text))
