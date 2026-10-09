@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). This project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.2] - 2026-10-09
+
+### Added
+
+- `strx.truncate` (seeded bug for the d26 status-comment proof)
+
 ## [0.10.1] - 2026-10-09
 
 ### Changed
