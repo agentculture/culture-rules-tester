@@ -9,4 +9,4 @@ def truncate(text: str, width: int, ellipsis: str = "...") -> str:
         raise ValueError("width must fit the ellipsis")
     if len(text) <= width:
         return text
-    return text[: width - len(ellipsis) + 1] + ellipsis
+    return text[: width - len(ellipsis)] + ellipsis
