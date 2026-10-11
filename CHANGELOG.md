@@ -5,13 +5,17 @@ All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). This project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.10.1] - 2026-10-07
+## [0.10.2] - 2026-10-11
 
 ### Added
 
+- `mathx.mean`: the arithmetic mean of a sequence (true division), `None` for an empty one.
+
+## [0.10.1] - 2026-10-09
+
 ### Changed
 
-### Fixed
+- The distribution is now named `culture-rules-tester`, after the repository, so TestPyPI trusted publishing matches its pending publisher. The import package `pr_fixer_sandbox`, the CLI command and the agent nick are unchanged.
 
 ## [0.10.0] - 2026-10-06
 
