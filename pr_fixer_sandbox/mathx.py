@@ -12,8 +12,9 @@ def median(values):
     """The median of ``values``; ``None`` for an empty sequence."""
     if len(values) == 0:
         return None
-    n = len(values)
+    ordered = sorted(values)
+    n = len(ordered)
     mid = n // 2
     if n % 2:
-        return values[mid]
-    return (values[mid - 1] + values[mid]) / 2
+        return ordered[mid]
+    return (ordered[mid - 1] + ordered[mid]) / 2
